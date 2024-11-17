@@ -1,0 +1,82 @@
+/* Container to hold the image and form side by side */
+.login-container {
+    display: flex;
+    align-items: center; /* Center vertically */
+    justify-content: center; /* Center horizontally */
+    height: 100vh; /* Full viewport height */
+    padding: 0 40px;/* background-color: #f4f4f4; Optional background color */
+    overflow: hidden; /* Prevent scrolling */
+  }
+  
+  .login-image {
+    flex: 1; /* Take up half of the container's width */
+    display: flex;
+    justify-content: center; /* Center the image horizontally */
+    align-items: center; /* Center the image vertically */
+    /* padding-right: 20px; */
+    max-width: 50%;
+  }
+  
+  .login-image img {
+    width: 100%; /* Full width of the container */
+    max-width: 600px; /* Maximum width of the image */
+    height: 150%; /* Maintain aspect ratio */
+    max-height: 400%; /* Ensure image does not exceed container height */
+    object-fit: cover; /* Maintain aspect ratio and cover the area */
+  }
+  
+  .login-form {
+    flex: 0 0 350px; /* Take up the remaining width */
+    margin-left: -60px;
+    padding: 40px;
+    max-width: 400px; /* Limit the width of the form */
+    
+    /* background-color: white; Background color for the form */
+    /* border-radius: 8px; Rounded corners */
+    /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); Optional shadow for form */
+  }
+  
+  .login-form h2 {
+    margin-top: 0;
+    color: black !important;
+  }
+  
+  .login-form div {
+    margin-bottom: 15px;
+    color: rgb(12, 0, 0);
+  }
+  
+  .login-form label {
+    display: block;
+    margin-bottom: 5px;
+    color: black !important; /* Force label text color to black */
+}
+
+
+  
+  .login-form input {
+    width: 100%; /* Full width of the form */
+    padding: 10px;
+    border: 1px solid #0b0b0b;
+    border-radius: 4px;
+  }
+  
+  .login-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff; /* Button color */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .login-form button:disabled {
+    background-color: #6c757d; /* Disabled button color */
+  }
+  
+  .login-form p {
+    color: black; /* Error message color */
+    margin-top: 10px;
+  }
+  

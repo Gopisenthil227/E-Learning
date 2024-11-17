@@ -1,0 +1,45 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "email": "test@example.com",
+      "password": "password123"
+    },
+    {
+      "username": "test",
+      "email": "test@gmail.com",
+      "password": "password",
+      "id": 2
+    },
+    {
+      "username": "bharath",
+      "email": "test@gmail.com",
+      "password": "123",
+      "id": 3
+    },
+    {
+      "username": "euai020@sk",
+      "email": "727722euai020@skcet.ac.in",
+      "password": "123",
+      "id": 4
+    },
+    {
+      "username": "testuser",
+      "email": "727722euai020@skcet.ac.in",
+      "password": "123",
+      "id": 5
+    },
+    {
+      "username": "euai020@sk",
+      "email": "727722euai020@skcet.ac.in",
+      "password": "123",
+      "id": 6
+    },
+    {
+      "username": "qwdfgh",
+      "email": "727722euai020@skcet.ac.in",
+      "password": "123",
+      "id": 7
+    }
+  ]
+}

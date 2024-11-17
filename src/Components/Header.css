@@ -1,0 +1,41 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: transparent; /* Force transparency */
+  color: #fff; /* Keep text color white for contrast */
+}
+
+
+.header-logo img {
+  height: 60px; /* Adjust based on your logo size */
+  background-color: transparent;
+}
+
+.header-nav {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.header-nav a {
+  color: #fff; /* Default link color */
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  transition: color 0.3s, background-color 0.3s, transform 0.3s; /* Smooth transition */
+}
+
+.header-nav a:hover {
+  color: aqua; /* Change link color on hover */
+}
+
+.header-profile img {
+  height: 30px; /* Adjust based on your profile icon size */
+  border-radius: 50%;
+  border: 2px solid transparent; /* Ensure a border exists for hover effect */
+  transition: border 0.3s; /* Smooth border transition */
+}
+
+.header-profile img:hover {
+  border: 2px solid #007bff; /* Add a border on hover */
+}
